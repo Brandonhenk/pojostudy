@@ -1,18 +1,20 @@
 package edu.jalc.rectangle;
+import edu.jalc.rectangle.height.Height;
+import edu.jalc.rectangle.width.Width;
 
 class Rectangle{
 
   private Width width;
-  private Hight height;
+  private Height height;
   private final String color; //just to practice accesors
 
-  private PojoStudy(){
+  private Rectangle(){
     this.width = null;
     this.height = null;
     this.color = "black";
   }
 
-  public PojoStudy(Width width, Height height, String color){
+  public Rectangle(Width width, Height height, String color){
     this.setWidth(width);
     this.setHeight(height);
     this.color = color;
@@ -29,11 +31,11 @@ class Rectangle{
   }
 
   //Mutators
-  Width setWidth(width){
+  Width setWidth(Width width){
     this.width = width;
     return this.width;
   }
-  Height setHeight(height){
+  Height setHeight(Height height){
     this.height = height;
     return this.height;
   }
