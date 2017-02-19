@@ -1,6 +1,6 @@
-package edu.jalc.pojostudy;
+package edu.jalc.rectangle;
 
-class PojoStudy{
+class Rectangle{
 
   private Width width;
   private Hight height;
